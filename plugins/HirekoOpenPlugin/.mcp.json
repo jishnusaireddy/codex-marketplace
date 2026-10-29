@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "HirekoOpenPlugin": {
+      "command": "node",
+      "args": [
+        "./bundle.mjs",
+        "serve"
+      ],
+      "env": {
+        "PLUGIN_NAME": "HirekoOpenPlugin"
+      }
+    }
+  }
+}

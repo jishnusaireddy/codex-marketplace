@@ -1,0 +1,33 @@
+{
+  "name": "HirekoOpenPlugin",
+  "version": "1.0.0",
+  "description": "Hireko AI Recruiter MCP Router for Codex: candidate interview analytics, AI interview links, and candidate search scorecards.",
+  "author": {
+    "name": "Hireko"
+  },
+  "keywords": [
+    "recruiter",
+    "hireko",
+    "interview",
+    "mcp",
+    "recruiting"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Hireko AI Recruiter",
+    "shortDescription": "AI Recruiter: candidate analytics, AI interview links, and scorecards",
+    "longDescription": "Connects Codex to Hireko recruiter services for candidate interview analytics, AI interview invitation generation, candidate scorecards, and talent search.",
+    "developerName": "Hireko",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show candidate interview counts and pass rates",
+      "Create candidate interview link for Senior Engineer",
+      "Search candidates for Java Spring Boot and Microservices"
+    ]
+  }
+}

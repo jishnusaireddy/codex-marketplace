@@ -1,0 +1,21 @@
+{
+  "name": "hireko-marketplace",
+  "interface": {
+    "displayName": "Hireko Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "HirekoOpenPlugin",
+      "description": "Hireko AI Recruiter MCP Router for Codex: candidate interview analytics, AI interview links, and candidate search scorecards.",
+      "category": "Recruiting",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "source": {
+        "source": "local",
+        "path": "./plugins/HirekoOpenPlugin"
+      }
+    }
+  ]
+}
