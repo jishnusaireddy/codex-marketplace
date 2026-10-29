@@ -24,6 +24,8 @@
       "Read",
       "Write"
     ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
     "defaultPrompt": [
       "Show candidate interview counts and pass rates",
       "Create candidate interview link for Senior Engineer",
