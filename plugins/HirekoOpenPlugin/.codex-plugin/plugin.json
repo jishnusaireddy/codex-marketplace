@@ -6,11 +6,13 @@
     "name": "Hireko"
   },
   "keywords": [
+    "productivity",
     "recruiter",
     "hireko",
     "interview",
     "mcp",
-    "recruiting"
+    "recruiting",
+    "hr"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
